@@ -15,6 +15,7 @@
 main {
     display: flex;
     flex-direction: column;
+    justify-items: center;
 }
 header {
     background-image: url(images/bg-hero-desktop.svg);
@@ -86,12 +87,17 @@ p {
  /* articlelar */
 
  .section-articles {
-    margin: 150px 80px;
+    /* margin: 150px 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
  }
 
  article {
     display: flex;
     flex-direction: row;
+    width:800px ;
     margin: 50px;
     border-radius: 10px;
     -webkit-box-shadow: 1px 2px 19px 7px rgba(148,140,148,1);
