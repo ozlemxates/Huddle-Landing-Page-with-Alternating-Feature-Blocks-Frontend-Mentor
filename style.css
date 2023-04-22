@@ -37,13 +37,19 @@ nav {
 
  nav button {
     width:150px;
-    height:30px;
+    height:40px;
     background-color:#ffff;
     border: 0;
     box-shadow: 1px 1px 1px rgb(238, 235, 235);
     border-radius: 20px;
     font-weight: 700;
+    font-family: var(--font-opensans);
  }
+ nav button:hover {
+   background-color: rgba(255, 255, 255, 0.619);
+   box-shadow: 1px 1px 1px rgb(132, 132, 132);
+}
+
 header section {
     display: flex;
     padding: 60px;
@@ -61,6 +67,7 @@ aside img {
     flex-direction: column;
     width: 550px;
     gap: 20px;
+    font-family: var(--font-opensans);
  }
 
 .text h1 {
@@ -69,7 +76,7 @@ aside img {
 
 .text button {
     width: 250px;
-    height: 40px;
+    height: 45px;
     background-color: var(--Pink);
     border-radius: 20px;
     border: 0;
@@ -79,21 +86,24 @@ aside img {
     font-weight: 700;
 }
 
+ .text button:hover, .box button:hover {
+   background-color:hsla(322, 89%, 70%, 0.8) ;
+ }
+
 p {
     font-size: 18px;
 }
 
- aside {}
-
-
- /* articlelar */
-
  .section-articles {
-    /* margin: 150px 80px; */
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center; 
+    font-family: var(--font-opensans);
+ }
+
+ .section-articles h1 {
+   font-size: 25px;
  }
 
  article {
@@ -110,8 +120,8 @@ p {
  }
 
  .article-text  {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
  }
 
  .reverse-img {
@@ -119,18 +129,18 @@ p {
  }
 
 picture {
-    padding: 30px;
+    padding: 20px;
 }
 
  picture img {
-    max-width: 100%;
-    width: 380px;  
+    width: 300px;  
  }
  /* footer başlangıç */
 
  main footer {
     background-color: var(--Very-Dark-Cyan);
     padding: 40px;
+    font-family: var(--font-opensans);
 
  }
 
