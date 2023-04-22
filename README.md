@@ -5,7 +5,7 @@ Thanks for checking out my front-end mentor coding solution for [Huddle landing 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://ozlemxates.github.io/Huddle-Landing-Page-with-Alternating-Feature-Blocks-Frontend-Mentor/)
 
 ### Built with
 
