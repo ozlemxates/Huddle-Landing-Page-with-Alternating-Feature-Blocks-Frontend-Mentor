@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 :root {
@@ -18,12 +17,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-items: center;
-    max-width: 100%;
+    flex-wrap: wrap;
 }
 header {
     background-image: url(images/bg-hero-desktop.svg);
     background-color: var(--VeryPale-Cyan);
-    justify-content: center;
 }
 
 nav {
@@ -235,12 +233,4 @@ footer nav a {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-}
-
-@media only screen and (max-width:768px) {
-   
-}
-
-@media only screen and (max-width:375px) {
-   
 }
