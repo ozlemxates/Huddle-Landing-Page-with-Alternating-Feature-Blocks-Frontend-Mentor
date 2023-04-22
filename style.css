@@ -18,6 +18,7 @@ main {
     flex-direction: column;
     justify-items: center;
     flex-wrap: wrap;
+    overflow: auto;
 }
 header {
     background-image: url(images/bg-hero-desktop.svg);
@@ -59,7 +60,6 @@ header section {
 
 aside img {
     width: 600px;
-    max-width: ;
 }
 
  .text {
@@ -141,7 +141,6 @@ picture {
     background-color: var(--Very-Dark-Cyan);
     padding: 40px;
     font-family: var(--font-opensans);
-
  }
 
  footer nav {
@@ -233,4 +232,18 @@ footer nav a {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width:768px) {
+   
+   main {
+     
+   }
+}
+
+@media only screen and (max-width:375px) {
+   main {
+      
+   }
+   
 }
