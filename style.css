@@ -192,12 +192,14 @@ footer nav a {
 }
 
 .logos i{
-   width: 32px;
-   height: 32px;
-   display: table-cell;
+   width: 2em;
+   height: 2em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    padding: 8px;
    border: 2px solid #ffff;
-   border-radius: 50% 50%;
+   border-radius: 50%;
 }
 
 .box {
