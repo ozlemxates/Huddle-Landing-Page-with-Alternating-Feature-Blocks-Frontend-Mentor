@@ -18,10 +18,12 @@ main {
     display: flex;
     flex-direction: column;
     justify-items: center;
+    max-width: 100%;
 }
 header {
     background-image: url(images/bg-hero-desktop.svg);
     background-color: var(--VeryPale-Cyan);
+    justify-content: center;
 }
 
 nav {
@@ -58,8 +60,8 @@ header section {
 }
 
 aside img {
-    max-width: 100%;
     width: 600px;
+    max-width: ;
 }
 
  .text {
@@ -231,4 +233,12 @@ footer nav a {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width:768px) {
+   
+}
+
+@media only screen and (max-width:375px) {
+   
 }
