@@ -236,21 +236,23 @@ footer nav a {
    color: #ffff;
 }
 
-@media only screen and (max-width:768px) {
-   nav {
+@media screen and (max-width:768px) {
+
+   header nav {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
    }
 
    header section {
       display: flex;
       flex-direction: column;
       text-align: center;
-      padding: 20px;
+
    }
 
    .text {
       align-items: center;
+      flex-wrap: wrap;
    } 
 
    article, .reverse-img {
@@ -284,9 +286,12 @@ footer nav a {
    }
 }
 
-@media only screen and (max-width:375px) {
-   main {
-      
-   }
+@media screen and (min-width: 375px) {
+
+   
+   
+   
+   
+
    
 }
