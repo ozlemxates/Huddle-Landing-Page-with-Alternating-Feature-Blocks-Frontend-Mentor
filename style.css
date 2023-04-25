@@ -108,6 +108,7 @@ p {
     display: flex;
     flex-direction: row;
     width:1200px ;
+    height: 300px;
     margin: 50px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -121,7 +122,6 @@ p {
 
  .reverse-img {
     flex-direction: row-reverse;
-    padding: 90px 100px;
  }
 
 picture {
@@ -236,7 +236,7 @@ footer nav a {
    color: #ffff;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:768px) and (min-width:481px) {
 
 
    header nav {
@@ -259,8 +259,10 @@ footer nav a {
       display: flex;
       flex-direction: column-reverse;
       width: 514px;
+      height: max-content;
       align-items: center;
       text-align: center;
+      justify-content: center;
    }
 
    .article-text,.reverse-img {
@@ -286,13 +288,62 @@ footer nav a {
    }
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 480px) {
 
-   body {
+   header nav {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   header section {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+   }
+
+   .text {
+      align-items: center;
+      flex-wrap: wrap;
+   } 
+
+   .section-articles {
       display: flex;
       flex-direction: column;
       align-items: center;
    }
+
+   article, .reverse-img {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 514px;
+      height: max-content;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+   }
+
+   .article-text,.reverse-img {
+      padding:20px
+   }
+
+   picture {
+      padding:20px;
+   }
+   
+   footer nav {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .info-last {
+      margin-top:-9px;
+   }
+
+   .logos, .copyright {
+      display: flex;
+      justify-content: center;
+   }
+}
  
   
 
