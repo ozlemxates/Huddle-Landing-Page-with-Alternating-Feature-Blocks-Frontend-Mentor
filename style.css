@@ -265,6 +265,11 @@ footer nav a {
       justify-content: center;
    }
 
+   article {
+      padding-right:92px ;
+      
+   }
+
    .article-text,.reverse-img {
       padding:20px
    }
@@ -290,27 +295,20 @@ footer nav a {
 
 @media only screen and (max-width: 480px) {
 
-   header nav {
+   body {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
    }
 
    header section {
-      display: flex;
       flex-direction: column;
       text-align: center;
    }
 
    .text {
       align-items: center;
-      flex-wrap: wrap;
    } 
-
-   .section-articles {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
 
    article, .reverse-img {
       display: flex;
@@ -326,13 +324,15 @@ footer nav a {
       padding:20px
    }
 
-   picture {
+   .logo-image {
       padding:20px;
+      padding-left: 133px;
    }
    
    footer nav {
       display: flex;
       flex-direction: column;
+      padding-left: 131px;
    }
 
    .info-last {
@@ -342,16 +342,6 @@ footer nav a {
    .logos, .copyright {
       display: flex;
       justify-content: center;
+      padding-left: 121px;
    }
-}
- 
-  
-
-   
-   
-   
-   
-   
-
-   
 }
