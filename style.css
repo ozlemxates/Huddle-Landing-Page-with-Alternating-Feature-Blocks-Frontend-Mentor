@@ -237,8 +237,6 @@ footer nav a {
 }
 
 @media only screen and (max-width:768px) and (min-width:481px) {
-
-
    header nav {
       display: flex;
       justify-content: space-between;
@@ -304,13 +302,25 @@ footer nav a {
    header section {
       flex-direction: column;
       text-align: center;
+      margin-left: 137px;
+   }
+
+   nav img {
+      margin-left:156px;
+      width: 35%;
    }
 
    .text {
       align-items: center;
+      width: 363px;
    } 
 
+   aside img {
+      width: 359px;
+   }
+
    article, .reverse-img {
+      margin-left: 202px;
       display: flex;
       flex-direction: column-reverse;
       width: 514px;
@@ -324,19 +334,37 @@ footer nav a {
       padding:20px
    }
 
+   .box {
+      width: 466px;
+      padding: 6px;
+      left: 72px;
+   }
+
    .logo-image {
       padding:20px;
       padding-left: 133px;
+   }
+
+   footer {
+      margin-left: 96px;
    }
    
    footer nav {
       display: flex;
       flex-direction: column;
-      padding-left: 131px;
+   }
+
+   .location, .phone, .email {
+      margin-left:-115px ;
+   }
+
+   .info {
+      margin-left: 50px;
    }
 
    .info-last {
       margin-top:-9px;
+      margin-left: 50px;
    }
 
    .logos, .copyright {
